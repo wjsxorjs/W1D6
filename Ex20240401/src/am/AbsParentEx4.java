@@ -9,8 +9,8 @@ public abstract class AbsParentEx4 { // 추상 클래스 abstract는 접근제�
 		msg = newMsg;
 	}
 	
-	public void tmp() {}; 	   // empty method : 비어있는 함수(메소드) < 반드시 재정의할 필요는 없음
-	public abstract void test() ; // abstract method : 추상메소드
+	public void tmp() {};	   // empty method : 비어있는 함수(메소드) < 반드시 재정의할 필요는 없음
+	public abstract void test(); // abstract method : 추상메소드
 								   // 부모 클래스가 가지고는 있지만 
 								   // 자식클래스가 반드시 재정의해야하는 함수.
 	
