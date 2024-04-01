@@ -1,7 +1,5 @@
 package pm;
 
-import pm.BfTestParent1;
-
 public class BfTestChild1 extends BfTestParent1 {
 
 	
