@@ -1,9 +1,18 @@
 package am;
 
 public class MainEx1 {
+
+//	public static void test(MyCarEx1 mc) {
+////		mc.setMyModel("자동차모델: M1");
+//		mc.setModel("자동차모델: M1");
+//	}
 	
-	public static void test(MyCarEx1 mc) {
-//		mc.setMyModel("자동차모델: M1");
+//	public static void test(HDCarEx1 mc) {
+//		mc.setModel("자동차모델: M2");
+//	}
+
+	public static void test(CarEx1 mc) {
+
 		mc.setModel("자동차모델: M1");
 	}
 	
@@ -22,9 +31,14 @@ public class MainEx1 {
 			자손클래스부터 조상클래스 모두 같은 변수와 함수를 가질 수 있다.
 			위의 경우 가장 처음 접근했던 MyCarEx1의 moel을 접근하고 사용하게 된다.
 		*/
+		System.out.println("------ MyCarEx1 mc1------");
 		System.out.println(mc1.model); // null
 		test(mc1);
 		System.out.println(mc1.model); // 자동차모델: M1
+		System.out.println("------ HDCarEx1 mc2------");
+		System.out.println(mc2.model); // null
+		test(mc2);
+		System.out.println(mc2.model); // null
 		
 
 	}
