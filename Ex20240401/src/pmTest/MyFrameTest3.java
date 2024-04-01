@@ -3,7 +3,6 @@ package pmTest;
 import javax.swing.JFrame;
 
 public class MyFrameTest3 extends JFrame { // 모두 인스턴스 안에 만들어진다.
-																   // MyFrameEx3은 JFrame도 되고, WindowListener.
 
 	public MyFrameTest3() { // 생성자는 반환형이 없다. 인자가 없다면 기본 생성자라고 한다.
 		MyInterTest3 mit3 = new MyInterTest3();

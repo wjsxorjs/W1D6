@@ -3,7 +3,11 @@ package pm;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
-public class MyWin implements WindowListener {
+public class MyWin implements WindowListener { // 서로 다른 객체들을 하나로 결집시킬 때 사용
+	
+	// JAVA에서 객체화 시킬 수 있는 것은 Class, Abstract Class, Interface 이렇게 세 가지이다.
+	// 여기서 가장 중요하다고 생각하는 것은 Interface인데, 그 이유는 서로 다른 인스턴스(객체)들인데도
+	// 하나로 묶을 수 있기 때문에. 특히, Spring(POJO 기반)에서 자주 쓰이고 중요하게 사용될 것이기 때문이다.
 
 	@Override
 	public void windowOpened(WindowEvent e) {
